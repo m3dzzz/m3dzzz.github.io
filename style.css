@@ -11,7 +11,7 @@ hr {
 
 .navbar {
     margin-bottom: -55px;
-    transition: background 1s;
+    background: #484748;
 }
 
 .nav-link {
@@ -25,7 +25,7 @@ nav.scrolled {
 
 .jumbotron {
     height: 100vh;
-    background-image: url(images/_P1A1574.jpg);
+    background-image: url(images/P1A1574.jpg);
     background-size: cover; 
 }
 
