@@ -1,0 +1,67 @@
+body {
+    background: #484748;
+}
+
+hr {
+    background-color: #c7c6c68f;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+}
+
+.navbar {
+    margin-bottom: -55px;
+    transition: background 1s;
+}
+
+.nav-link {
+    color: #c7c6c6;
+    letter-spacing: 0.2rem;
+}
+
+nav.scrolled {
+    background: #484748;
+  }
+
+.jumbotron {
+    height: 100vh;
+    background-image: url(images/_P1A1574.jpg);
+    background-size: cover; 
+}
+
+.vertical{
+    margin-top:50%;
+    }
+
+.display-5 {
+    color: #c7c6c6;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1rem;
+}
+
+.display-4 {
+    color: #484748;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+
+}
+
+.btn {
+    color: #E25050;
+    border-color: #E25050;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background-color: rgba(226, 80, 80, 0.521) ;
+    color: #c7c6c6;
+    border-color: #E25050;
+    margin-top: 1rem;
+
+}
+
+p {
+    color: #c7c6c6;
+    letter-spacing: 0.2rem;
+}
