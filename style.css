@@ -19,6 +19,11 @@ hr {
     letter-spacing: 0.2rem;
 }
 
+.nav-link:hover {
+    color: #E25050;
+
+}
+
 nav.scrolled {
     background: #484748;
   }
