@@ -9,6 +9,7 @@ hr {
     width: 50%;
 }
 
+
 .navbar {
     margin-bottom: -55px;
     background: #484748;
@@ -39,7 +40,10 @@ nav.scrolled {
     height: 100vh;
     background-image: url(images/P1A1574.jpg);
     background-size: cover; 
-}
+    background-attachment: fixed;
+    }
+
+
 
 .vertical{
     margin-top:50%;
@@ -57,6 +61,27 @@ nav.scrolled {
     font-size: 1.5rem;
     letter-spacing: 0.5rem;
 
+}
+
+.display-3 {
+    color: #E25050;
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+
+}
+
+.display-2 {
+    color: #484748;
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+
+}
+
+.icons {
+    color: #484748;
+    font-size: 6rem;
+    padding: 1rem;
+    border: solid 1px;
 }
 
 .btn {
@@ -77,3 +102,13 @@ p {
     color: #c7c6c6;
     letter-spacing: 0.2rem;
 }
+
+
+
+
+
+
+
+
+/* SNIPCART */
+
