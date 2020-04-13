@@ -23,6 +23,13 @@ nav.scrolled {
     background: #484748;
   }
 
+.snipcart-checkout, snipcart-customer-signin {
+    color: #E25050;
+    border-color: #E25050;
+    margin-top: 1rem;
+    background-color: rgba(255, 248, 220, 0);
+}
+
 .jumbotron {
     height: 100vh;
     background-image: url(images/P1A1574.jpg);

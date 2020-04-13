@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.11/default/snipcart.css" />
+
  
 
 </head>
@@ -34,6 +36,15 @@
         <li class="nav-item">
             <a class="nav-link" href="#contact">CONTACT</a>
         </li>
+        <li class="nav-item">
+        <button class="snipcart-customer-signin btn my-0 mr-4">MY ACCOUNT</button>
+        </li>    
+        <li class="nav-item"></li>
+        <button class="snipcart-checkout btn my-0">CHECKOUT</button>
+        </li>   
+
+
+
     </ul>
 </nav>
 <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
@@ -88,7 +99,17 @@
                     <img src="images/pic01.jpg" class="card-img-top rounded-0" alt="...">
                     <div class="card-body">
                         <h1 class="display-4">PRODUCT 1</h1>
-                      <a href="#" class="btn btn-outline-primary stretched-link">View Item</a>
+                        <button class="snipcart-add-item btn btn-outline-primary stretched-link"
+                        data-item-id="starry-night"
+                        data-item-price="79.99"
+                        data-item-url="/paintings/starry-night"
+                        data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                        data-item-image="/assets/images/starry-night.jpg"
+                        data-item-name="The Starry Night"
+                        data-item-custom1-name="Size"
+                        data-item-custom1-options="Small|Medium|Large|XL">
+                        Add to cart
+                      </button>
                     </div>
                   </div>
             </div>
@@ -175,7 +196,9 @@
 
 
 
-
+<div hidden id="snipcart" data-api-key="<ZWRmYWUyYzQtYTc5YS00MDE0LWJmYzQtYmE2ZDczMzkyODgwNjM3MjIzODQwMDUzNDYwNzM3
+>"></div>
+    <script src="https://cdn.snipcart.com/themes/v3.0.11/default/snipcart.js"></script>
 
     <!-- This is the Bootleg JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
