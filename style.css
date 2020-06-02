@@ -1,114 +1,220 @@
-body {
-    background: #484748;
+
+nav{
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-hr {
-    background-color: #c7c6c68f;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    width: 50%;
+a.navbar-brand{
+   margin-left: 25px;
+   font-size: 1.5rem;
+   font-weight: 700; 
+   color: #ffcb1e;
 }
 
-
-.navbar {
-    margin-bottom: -55px;
-    background: #484748;
+a.nav-link{
+    margin-right: 25px;
+    font-weight: 400;
+    color: white;
 }
 
-.nav-link {
-    color: #c7c6c6;
-    letter-spacing: 0.2rem;
+a.nav-link:hover{
+  color: #ffcb1e;
 }
 
-.nav-link:hover {
-    color: #E25050;
-
-}
-
-nav.scrolled {
-    background: #484748;
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
   }
 
-.snipcart-checkout, snipcart-customer-signin {
-    color: #E25050;
-    border-color: #E25050;
-    margin-top: 1rem;
-    background-color: rgba(255, 248, 220, 0);
+  .btn-outline-light {
+    border-color: #ffcb1e;
+    
 }
 
-.jumbotron {
-    height: 100vh;
-    background-image: url(images/P1A1574.jpg);
-    background-size: cover; 
-    background-attachment: fixed;
-    }
-
-
-
-.vertical{
-    margin-top:50%;
-    }
-
-.display-5 {
-    color: #c7c6c6;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    letter-spacing: 1rem;
+.btn-outline-light:hover {
+    background-color: #ffcb1e;
+    border-color: #ffcb1e;
+    color: #000000;
+    
 }
 
-.display-4 {
-    color: #484748;
-    font-size: 1.5rem;
-    letter-spacing: 0.5rem;
-
+h1 {
+  font-size: 2rem;
+  font-weight: 700; 
+  color: #000000;
 }
 
-.display-3 {
-    color: #E25050;
-    font-size: 1rem;
-    letter-spacing: 0.25rem;
-
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black;
 }
 
-.display-2 {
-    color: #484748;
-    font-size: 1rem;
-    letter-spacing: 0.25rem;
-
+h3 {
+  font-size: 2rem;
+  font-weight: 700; 
+  color: #ffcb1e;
 }
 
-.icons {
-    color: #484748;
-    font-size: 6rem;
-    padding: 1rem;
-    border: solid 1px;
+h4 {
+  font-size: 1rem;
+  font-weight: 700; 
+  color: #ffcb1e;
 }
 
-.btn {
-    color: #E25050;
-    border-color: #E25050;
-    margin-top: 1rem;
-}
-
-.btn:hover {
-    background-color: rgba(226, 80, 80, 0.521) ;
-    color: #c7c6c6;
-    border-color: #E25050;
-    margin-top: 1rem;
-
+.footer {
+  background-color: black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 p {
-    color: #c7c6c6;
-    letter-spacing: 0.2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+}
+
+p1 {
+  font-size: .75rem;
+  font-weight: 400;
+  color: white;
+}
+
+.page-footer {
+  background-color: black;
+
+}
+
+.mybg1 {
+  background-color: #ffcb1e;
+  background-image: url('images/sbas-51.png');
+  background-size: cover; 
+}
+
+.mybg2 {
+  background-color: #000000;
+  background-image: url('images/sbas-51.png');
+  background-size: cover; 
+}
+
+.mybg3 {
+  background-color: #000000;
+}
+
+.mybg4 {
+  height: 50vh;
+  background-image: url('images/45252643_2005067632865547_3010277796774674432_o.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+
 }
 
 
+.mybox2 {
+  background-color: #ffcb1e;
+}
+
+.fab {
+  padding-right: 20px;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-socials {
+  background-color: teal;
+
+}
 
 
+.fa:hover {
+  opacity: 0.7;
+}
 
+.row1 {
+  display: flex;
+}
 
+.column {
+  flex: 50%;
+}
 
+hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
 
-/* SNIPCART */
+/* OPENING HOURS */
+.business-hours {
+  background:black; 
+  padding: 20px 20px;
+  margin-top: -15px;
+  position: relative;
+  }
+  .business-hours:before{
+  content: '';
+  width: 23px;
+  height: 23px;
+  background: black;
+  position: absolute;
+  top: 5px;
+  left: -12px;
+  transform: rotate(-45deg);
+  z-index: -1;
+  }
+  .business-hours .title {
+  font-size: 1.5rem;
+  color: #ffcb1e;
+  text-transform: uppercase;
+  padding-left: 5px;
+ 
+  }
+  .business-hours li {
+  color: white;
+  line-height: 30px;
+  border-bottom: 1px solid #333; 
+  }
+  .business-hours li:last-child {
+  border-bottom: none; 
+  }
+  .business-hours .opening-hours li.today {
+  color: #ffcb1e; 
+  font-weight: 700;
+  }
 
