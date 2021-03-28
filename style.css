@@ -123,13 +123,13 @@ p1 {
 
 .mybg1 {
   background-color: #ffcb1e;
-  background-image: url('Images/sbas-51.png');
+  background-image: url('images/sbas-51.png');
   background-size: cover; 
 }
 
 .mybg2 {
   background-color: #000000;
-  background-image: url('Images/sbas-51.png');
+  background-image: url('images/sbas-51.png');
   background-size: cover; 
 }
 
@@ -139,7 +139,7 @@ p1 {
 
 .mybg4 {
   height: 50vh;
-  background-image: url('Images/45252643_2005067632865547_3010277796774674432_o.jpg');
+  background-image: url('images/45252643_2005067632865547_3010277796774674432_o.jpg');
   background-size: cover;
   background-attachment: fixed;
 
